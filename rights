@@ -1,10 +1,19 @@
 <html>
-<!--Dublin Core markup-->
-<!--<body vocab="http://purl.org/dc/terms/">-->
+<body>
 <!—Rights-->
+<!--Dublin Core markup-->
+<div vocab="http://purl.org/dc/terms/">
   <a property="accessRights" href="http://nationalacademies.org/legal/privacy/index.html">Privacy Statement</a> |
   <a property="rights" href="http://nationalacademies.org/legal/policy/index.html">DMCA Policy</a> |
   <a property="license" href="http://nationalacademies.org/legal/terms/index.html">Terms of Use</a><br/>
   <a property="rights">Copyright © 2016</a> <a property="rightsHolder">National Academies of Sciences, Engineering, and Medicine.</a> <a property="rights">All rights reserved.</a>
-<!--</body>-->
+ </div>
+<!--schema.org markup-->
+<div vocab="http://schema.org/" typeof="WebPage">
+  <a property="accessRights" href="http://nationalacademies.org/legal/privacy/index.html">Privacy Statement</a> |
+  <a property="rights" href="http://nationalacademies.org/legal/policy/index.html">DMCA Policy</a> |
+  <a property="license" href="http://nationalacademies.org/legal/terms/index.html">Terms of Use</a><br/>
+  <a property="rights">Copyright ©</a><a property="copyrightYear">2016</a> <a property="copyrightHolder">National Academies of Sciences, Engineering, and Medicine.</a> <a property="rights">All rights reserved.</a>
+</div>
+</body>
 </html>
